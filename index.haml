@@ -1,0 +1,144 @@
+%html
+	%head
+		<!-- @stylesheet style -->
+		<!-- @stylesheet style -->
+		<!-- @reload --> 
+		%title 100 Minds
+		<script type="text/javascript" src="//use.typekit.net/qwt2ghx.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<link href="//get.pictos.cc/fonts/3657/7" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+	%body 
+		%header
+			.row
+				.large-5.small-10.columns
+					%img{:src => "assets/logo.jpg"}
+				.large-7.small-11.columns
+					%h1 Take 100 of Ireland’s best & brightest undergraduates, focus them on one big problem, and watch it disappear
+					%h2 100 minds is a non profit organisation that brings together some of Irelands top undergraduate students and connects them with one cause to achieve big goals in a short space of time.
+					.row 
+						.large-8.columns
+							%form.custom
+								.row.collapse
+									.large-9.small-9.columns
+										%input{:type => "text", :placeholder => "Enter your email..."}	
+									.large-3.small-3.columns
+										%input.button.smaller{:type => "submit", :value => "Keep me updated" } 
+					/ %a.button{:href=>"#"} Learn More
+					/ %a.button.secondary{:href=>"#"} Apply Now
+		%section.main
+			
+			.row.benefits.large-width
+				.large-4.columns
+					%h3
+						%span.pictos l
+						Real Impact. Real Transparency
+					%ul
+						%li Over 100 of Irelands top undergraduates coming together to raise €100,000 for Temple Street Childrens Hospital.
+						%li Each participant is tasked with leveraging their skills and creativity to raise 1k each
+						%li Every penny raised is tracked and measured and goes towards a detailed spend agreement.
+
+				.large-4.columns
+					%h3
+						%span.pictos p
+						Enhance your online presence
+					%ul
+						%li Join 100Minds, do your part for temple street and detail that experience with your own 100Minds Profile Page.
+						%li Outline how you used your skills and creativity to raise your donation, add pictures and videos and include skills gained and lessons learned.
+						%li Link your profile to all your social & online touch points, help friends gain from your learning and inspire others to take social action.
+
+				.large-4.columns
+					%h3
+						%span.pictos c
+						Stand Out From The Crowd.
+					%ul
+						%li Some of Ireland’s top graduate employers agree that being involved in 100Minds is exactly what they look for in potential hires.
+						%li Practical learning is the best learning. And with 100Minds you get exactly that. When you sign up you’re challenged to think creatively devise a strategy and implement it.
+						%li You develop and refine your project management skills and our founders are there to help you along the way. Read more about the help 100Minds and it’s founders offer you here.
+
+
+
+
+				
+		%section.faq
+			.row
+				.large-8.columns.left
+					%h5 FAQ
+					<!-- @include faq -->
+
+				.large-4.columns
+					.style1
+						%h5 Get In Touch
+						.grey-box
+							
+							.row
+								.large-3.columns.left.text-center
+									%span.pictos e
+								.large-9.columns
+									%a{:href => "mailto:info@100minds.org"} info@100minds.org
+							.row
+								.large-3.columns.left.text-center
+									%span.pictos a
+								.large-9.columns
+									+353 87 0684334
+							.row
+								.large-3.columns.left.text-center
+									%span.pictos f
+								.large-9.columns.pt
+									<div class="fb-like" data-href="https://www.facebook.com/100Minds" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+
+							.row
+								.large-3.columns.left.text-center
+									%span.pictos t
+								.large-9.columns.pt
+									<a href="https://twitter.com/100minds_ie" class="twitter-follow-button" data-show-count="false">Follow @100minds</a>
+
+		%section.bottom	
+			.row
+				.large-9.columns.large-centered.text-center
+					
+					%h6 Sign Me Up
+					%p Full applications will be accepted from September. Leave your email address below and we'll notify you then.
+
+					%form.custom
+						.row.collapse
+							.large-9.columns
+								%input{:type => "text", :placeholder => "Enter your email..."}	
+							.large-3.columns
+								%input.button.smaller{:type => "submit", :value => "Keep me updated" } 
+							
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+	<script type="text/javascript" src="/assets/js/foundation/foundation.js"></script>
+	<script type="text/javascript" src="/assets/js/foundation/foundation.topbar.js"></script>
+	<script type="text/javascript" src="/assets/js/foundation/foundation.reveal.js"></script>
+	<script type="text/javascript" src="/assets/js/foundation/foundation.forms.js"></script>
+	<script type="text/javascript" src="/assets/js/foundation/foundation.orbit.js"></script>
+	<script type="text/javascript" src="/assets/js/foundation/foundation.tooltips.js"></script>
+	<script type="text/javascript" src="/assets/js/foundation/foundation.section.js"></script>
+	<script type="text/javascript" src="/assets/js/foundation/foundation.placeholder.js"></script>
+
+	<script>
+	$(document).foundation('topbar reveal forms orbit tooltips section', {back_text: 'Back to Menu'} );
+	$('input, textarea').placeholder();
+	</script>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=179317398900982";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-42131103-1', '100minds.org');
+	ga('send', 'pageview');
+	</script>

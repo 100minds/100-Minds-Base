@@ -1,0 +1,140 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8"
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "foundation/foundation-global"
+
+// Foundation Components
+@import "foundation/components/global"
+@import "foundation/components/grid"
+@import "foundation/components/visibility"
+@import "foundation/components/block-grid"
+@import "foundation/components/type"
+@import "foundation/components/buttons"
+@import "foundation/components/forms"
+@import "foundation/components/custom-forms"
+//@import "foundation/components/button-groups"
+//@import "foundation/components/dropdown-buttons"
+//@import "foundation/components/split-buttons"
+//@import "foundation/components/flex-video"
+@import "foundation/components/section"
+@import "foundation/components/top-bar"
+@import "foundation/components/orbit"
+@import "foundation/components/reveal"
+//@import "foundation/components/joyride"
+//@import "foundation/components/clearing"
+//@import "foundation/components/alert-boxes"
+//@import "foundation/components/breadcrumbs"
+//@import "foundation/components/keystrokes"
+//@import "foundation/components/labels"
+//@import "foundation/components/inline-lists"	
+@import "foundation/components/pagination"
+//@import "foundation/components/panels"
+//@import "foundation/components/pricing-tables"
+//@import "foundation/components/progress-bars"
+//@import "foundation/components/side-nav"
+//@import "foundation/components/sub-nav"
+//@import "foundation/components/switch"
+//@import "foundation/components/magellan"
+//@import "foundation/components/tables"
+//@import "foundation/components/thumbs"
+@import "foundation/components/tooltips"
+@import "foundation/components/dropdown"
+
+body
+	font-family: 'proxima nova'
+	background: #20a0d5
+
+header 
+	background: #fff
+	padding: 30px 0
+	h1
+		margin-bottom: 20px
+		font-weight: bold
+	h2
+		font-weight: normal
+		margin-bottom: 25px
+		
+input.button.smaller
+	padding-top: 0.5em
+	padding-bottom: 0.6em
+	padding-left: 1em
+	padding-right: 1em
+	background: #8bab32
+	text-transform: none
+	@include border-top-radius(0px)
+	@include border-bottom-radius(0px)
+
+.secondary 
+	background: #e92230
+
+.main
+	color: #fff
+	p, h3
+		color: #fff
+
+.large-width
+	width: 94%
+	max-width: 1200px
+	padding: 30px 3%
+
+.benefits
+	p
+		margin-bottom: none
+	padding: 30px 0	
+	.pictos
+		font-size: 20px
+	ul
+		padding-left: 30px
+	h3
+		font-size: 16px
+		text-transform: uppercase
+		font-weight: bold
+
+.pictos
+	display: inline
+	font-family: 'Pictos Custom'
+	text-transform: none
+
+.faq
+	background: #fff
+	h5 
+		@include border-top-radius(3px)
+		margin-bottom: 0px
+		margin-top: 30px
+		background: #a4c153
+		padding: 15px
+		color: #fff
+		text-transform: uppercase
+		font-weight: bold
+
+.grey-box
+	.pictos
+		font-size: 24px
+	padding: 15px
+	border: 1px solid #efefef
+	.row
+		line-height: 35px
+		.columns
+			padding: 0px
+	.left
+		text-align: right
+		font-weight: bold
+
+.pt
+	padding-top: 7px
+
+.bottom 
+	p
+		color: #fff
+	h6
+		color: #fff
+		font-weight: bold
+		text-transform: uppercase
+		font-size: 28px
+		margin-top: 20px
+
+
+
+
+
