@@ -21,9 +21,9 @@
 							%form.custom
 								.row.collapse
 									.large-9.small-9.columns
-										%input{:type => "text", :placeholder => "Enter your email..."}	
+										%input.email-address{:type => "text", :placeholder => "Enter your email..."}	
 									.large-3.small-3.columns
-										%input.button.smaller{:type => "submit", :value => "Keep me updated" } 
+										%input.email-submit.button.smaller{:type => "submit", :value => "Keep me updated" } 
 					/ %a.button{:href=>"#"} Learn More
 					/ %a.button.secondary{:href=>"#"} Apply Now
 		%section.main
@@ -103,9 +103,9 @@
 					%form.custom
 						.row.collapse
 							.large-9.columns
-								%input{:type => "text", :placeholder => "Enter your email..."}	
+								%input.email-address{:type => "text", :placeholder => "Enter your email..."}	
 							.large-3.columns
-								%input.button.smaller{:type => "submit", :value => "Keep me updated" } 
+								%input.email-submit.button.smaller{:type => "submit", :value => "Keep me updated" } 
 							
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
@@ -118,6 +118,7 @@
 	<script type="text/javascript" src="/assets/js/foundation/foundation.tooltips.js"></script>
 	<script type="text/javascript" src="/assets/js/foundation/foundation.section.js"></script>
 	<script type="text/javascript" src="/assets/js/foundation/foundation.placeholder.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
 
 	<script>
 	$(document).foundation('topbar reveal forms orbit tooltips section', {back_text: 'Back to Menu'} );
